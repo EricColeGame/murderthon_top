@@ -13,9 +13,7 @@
     "mechanics": "Mechanics",
     "items": "Items",
     "maps": "Maps",
-    "community": "Community",
-    "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -499,7 +497,9 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
   },
   "footer": {
     "aboutTitle": "Murderthon Wiki",

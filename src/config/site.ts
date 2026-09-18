@@ -34,6 +34,8 @@ export const siteConfig: SiteConfig = {
     // Chilly Creations official game-developing channel
     youtube: "https://www.youtube.com/@chillycreations",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  // 语言真相源是 src/i18n/routing.ts，此字段仅为无消费者的配置项，必须与其保持同步，
+  // 否则后来者若改回以本字段为准，会静默重新引入已移除的 fr 并生成 /fr 页面。
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };
