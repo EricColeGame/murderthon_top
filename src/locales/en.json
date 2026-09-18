@@ -501,6 +501,11 @@
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The guide you are looking for may have moved or has not been added yet.",
+    "cta": "Browse All Guides"
+  },
   "footer": {
     "aboutTitle": "Murderthon Wiki",
     "about": "Murderthon Wiki is an independent fan-built guide hub covering survivor strategies, killer tips, masks, maps, codes, and the essential game knowledge new and veteran players need to survive the trials of Westcord Inc.",

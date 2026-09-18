@@ -1,1 +1,525 @@
-{}
+{
+  "site": {
+    "name": "Murderthon Wiki",
+    "shortName": "Murderthon",
+    "tagline": "Guias de Sobrevivente, Dicas de Assassino, Códigos e Mapas",
+    "description": "O Murderthon Wiki oferece guias de sobrevivente, dicas de assassino, códigos, mapas e estratégias de jogo para ajudar os jogadores de Roblox a dominar este jogo de fuga de terror 4v1.",
+    "legalNotice": "Wiki de fãs não oficial do Murderthon. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "guide": "Guia",
+    "codes": "Códigos",
+    "characters": "Personagens",
+    "mechanics": "Mecânicas",
+    "items": "Itens",
+    "maps": "Mapas",
+    "community": "Comunidade"
+  },
+  "home": {
+    "meta": {
+      "title": "Murderthon Wiki - Códigos, Guias e Dicas de Assassino",
+      "description": "O Murderthon Wiki oferece guias de sobrevivente, dicas de assassino, códigos, mapas e estratégias de jogo para ajudar os jogadores de Roblox a dominar este jogo de fuga de terror 4v1."
+    },
+    "hero": {
+      "eyebrow": "Sobrevivência de Terror Assimétrica 4v1",
+      "title": "Murderthon Wiki",
+      "description": "Wiki completa do Murderthon com guias de sobrevivente, estratégias de assassino, códigos, dicas de jogabilidade e tudo o que os jogadores precisam para sobreviver às provas da Westcord Inc.",
+      "stats": [
+        "11,5M+ Visitas",
+        "2 Funções Disponíveis",
+        "4 Códigos Ativos",
+        "Atualizações Semanais"
+      ],
+      "primaryCta": "Guia para Iniciantes",
+      "secondaryCta": "Guia de Sobrevivente",
+      "tertiaryCta": "Códigos Ativos",
+      "videoLabel": "Prévia de Gameplay"
+    },
+    "updates": {
+      "title": "Últimas Atualizações",
+      "browse": "Ver Todos os Guias",
+      "viewAll": "Ver Tudo"
+    },
+    "start": {
+      "eyebrow": "Comece Aqui",
+      "title": "Sua Jornada em Murderthon",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para Iniciantes",
+          "description": "Aprenda o ciclo 4v1 desde a sua primeira partida: repare os geradores, quebre a linha de visão e chegue a um portão de saída antes do assassino."
+        },
+        {
+          "number": "2",
+          "title": "Melhor Classe para Escolher",
+          "description": "Compare a lista de classes do Murderthon antes de definir uma função e encontre o kit que combina com o seu jeito de jogar."
+        },
+        {
+          "number": "3",
+          "title": "Todos os Códigos Ativos",
+          "description": "Resgate todos os códigos ativos do Murderthon para ganhar Shards grátis e o Banner Vestige exclusivo antes que parem de funcionar."
+        },
+        {
+          "number": "4",
+          "title": "M.A.S.K e Talentos",
+          "description": "Combine as passivas das máscaras com os talentos de classe para montar uma configuração de sobrevivente ou assassino que aguente partidas mais exigentes."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas Populares",
+      "title": "Em Alta Agora",
+      "quickLinks": [
+        "Códigos de Murderthon",
+        "Guia para Iniciantes",
+        "Tier List de Máscaras",
+        "Chamadas de Mapa"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para Iniciantes",
+          "description": "Tudo o que você precisa desde a sua primeira partida: ler o assassino, aguentar uma perseguição e escapar do mapa.",
+          "href": "/guide/murderthon-beginner-guide"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Códigos Ativos",
+          "description": "Todos os códigos ativos do Murderthon com suas recompensas e passos de resgate, antes que expirem.",
+          "href": "/codes/murderthon-codes"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Banco de Dados M.A.S.K",
+          "description": "Todas as máscaras do Murderthon com seus modificadores de atributos, habilidades e como desbloqueá-las.",
+          "href": "/items/murderthon-masks"
+        },
+        {
+          "badge": "Popular",
+          "title": "Qual Classe Você Deve Escolher?",
+          "description": "Handyman, Medic e o resto da lista comparados para você encontrar sua função.",
+          "href": "/mechanics/murderthon-classes"
+        },
+        {
+          "badge": "Novo",
+          "title": "Lista de Assassinos",
+          "description": "Todos os assassinos mascarados do Murderthon, com ferramentas de rastreamento, tempos de recarga e contrajogo.",
+          "href": "/mechanics/murderthon-killers"
+        },
+        {
+          "badge": "Popular",
+          "title": "Melhor Tier List de Máscaras",
+          "description": "Todas as máscaras do Murderthon classificadas pelos atributos e passivas que realmente trazem para uma partida.",
+          "href": "/items/murderthon-best-mask"
+        },
+        {
+          "badge": "Popular",
+          "title": "Melhores Talentos e Builds",
+          "description": "Escolhas ideais de talentos e combinações de máscaras tanto para sobreviventes quanto para assassinos.",
+          "href": "/mechanics/murderthon-talents"
+        },
+        {
+          "badge": "Novo",
+          "title": "Guias de Mapas",
+          "description": "West Park, Deep Forest e Facility detalhados por geradores, pontos de estrangulamento e portões de saída.",
+          "href": "/maps/murderthon-maps"
+        },
+        {
+          "badge": "Novo",
+          "title": "Guia de Sobrevivente",
+          "description": "Rotas de geradores, loops de paletes, dutos e reanimações para cada partida do Murderthon.",
+          "href": "/guide/murderthon-survivor-guide"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Murderthon?",
+      "paragraphs": [
+        "Murderthon é um jogo de terror assimétrico 4v1 no Roblox da Chilly Creations. Quatro sobreviventes caem em uma prova e correm para reparar os geradores e abrir os portões de saída, enquanto um único assassino mascarado os caça pelo mapa.",
+        "Cada rodada é uma perseguição. Os sobreviventes dependem do gerenciamento de resistência, paletes, dutos e reanimações, enquanto os assassinos se constroem em torno das habilidades M.A.S.K, do rastreamento e do tempo de recarga. Classes, talentos e máscaras desbloqueáveis permitem que os dois lados ajustem uma configuração antes mesmo de a partida começar."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedora",
+          "value": "Chilly Creations"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Terror Assimétrico"
+        },
+        {
+          "label": "Visitas",
+          "value": "11,5M+"
+        },
+        {
+          "label": "Funções",
+          "value": "Sobrevivente e Assassino"
+        },
+        {
+          "label": "Códigos Ativos",
+          "value": "4"
+        },
+        {
+          "label": "Frequência de Atualização",
+          "value": "Semanal"
+        }
+      ],
+      "cta": "Explorar Todos os Guias"
+    },
+    "explore": {
+      "title": "Explore o Murderthon Wiki",
+      "description": "Tudo o que você precisa para sobreviver às provas: códigos ativos do Murderthon, guias para iniciantes e sobreviventes, a lista de assassinos, atributos das máscaras, layouts dos mapas e os controles que mantêm você vivo.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Códigos de Murderthon",
+          "description": "Todos os códigos resgatáveis do Murderthon em um só lugar, com os Shards e banners que cada um concede, além dos passos exatos para resgatá-los antes que parem de funcionar.",
+          "href": "/codes/murderthon-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Vestige",
+              "detail": "Resgate o Banner Vestige exclusivo",
+              "badge": "Ativo"
+            },
+            {
+              "label": "200KVISITS",
+              "detail": "Resgate 1.000 Shards",
+              "badge": "Ativo"
+            },
+            {
+              "label": "FROST",
+              "detail": "Resgate 250 Shards",
+              "badge": "Ativo"
+            },
+            {
+              "label": "DIVIDE",
+              "detail": "Resgate 250 Shards",
+              "badge": "Ativo"
+            },
+            {
+              "label": "Dica",
+              "detail": "Os códigos diferenciam maiúsculas de minúsculas — abra o menu *** no canto inferior esquerdo e pressione REDEEM"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia para Iniciantes de Murderthon",
+          "description": "Um passo a passo da sua primeira sessão no ciclo do Murderthon: em qual lado você está, como os geradores abrem os portões de saída e os hábitos de movimento que mantêm um novo sobrevivente vivo após a primeira perseguição.",
+          "href": "/guide/murderthon-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Escolha seu lado: quatro sobreviventes correm para escapar enquanto um assassino caça pelo mapa"
+            },
+            {
+              "label": "2",
+              "detail": "Aprenda o ciclo de objetivos — repare geradores para energizar os portões de saída antes que o tempo acabe"
+            },
+            {
+              "label": "3",
+              "detail": "Gerencie a resistência: corra apenas quando estiver sendo perseguido para sempre ter um arranque sobrando"
+            },
+            {
+              "label": "4",
+              "detail": "Jogue com paletes, saltos e dutos para quebrar a linha de visão do assassino"
+            },
+            {
+              "label": "5",
+              "detail": "Reanime e solte companheiros caídos; um esquadrão completo escapa muito mais vezes do que um corredor solitário"
+            },
+            {
+              "label": "6",
+              "detail": "Guarde seus Shards e desbloqueie uma M.A.S.K antes da próxima partida para ganhar uma vantagem passiva"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de Sobrevivente de Murderthon",
+          "description": "A metade sobrevivente do Murderthon em detalhes: rotas de geradores, surgimento dos portões de escape, loops de perseguição e o trabalho em equipe que decide se o seu esquadrão sai junto.",
+          "href": "/guide/murderthon-survivor-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Geradores",
+              "detail": "Repare todos os geradores do mapa para energizar os portões de saída"
+            },
+            {
+              "label": "Rotas de Fuga",
+              "detail": "Explore cedo os pontos de surgimento dos portões em West Park, Deep Forest e Facility"
+            },
+            {
+              "label": "Perseguições",
+              "detail": "Dê voltas em paletes e saltos para consumir os tempos de recarga do assassino"
+            },
+            {
+              "label": "Dutos",
+              "detail": "Passe pelos dutos para quebrar a linha de visão e se reposicionar"
+            },
+            {
+              "label": "Reanimações",
+              "detail": "Levante companheiros caídos antes que o assassino os finalize"
+            },
+            {
+              "label": "Trabalho em Equipe",
+              "detail": "Divida os objetivos para que dois corredores nunca percam tempo no mesmo gerador"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guia de Assassino de Murderthon",
+          "description": "Como conduzir o lado assassino do Murderthon: patrulhar o circuito de geradores, ler as pistas sonoras, cronometrar seu golpe e usar cada kit M.A.S.K para fechar uma partida.",
+          "href": "/mechanics/murderthon-killers",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patrulha",
+              "detail": "Percorra o circuito de geradores e pressione o objetivo mais avançado"
+            },
+            {
+              "label": "Rastreamento",
+              "detail": "Leia pegadas, pistas sonoras e rastros de movimento para achar corredores escondidos"
+            },
+            {
+              "label": "Habilidades",
+              "detail": "Cada M.A.S.K tem seu próprio kit com recarga — aprenda as janelas de tempo"
+            },
+            {
+              "label": "Investida",
+              "detail": "Cronometre seu golpe tarde; um ataque errado devolve toda a perseguição"
+            },
+            {
+              "label": "Pressão",
+              "detail": "Force os corredores a sair dos geradores em vez de se comprometer com uma perseguição longa"
+            },
+            {
+              "label": "Mori",
+              "detail": "Finalize um corredor caído com a execução da sua máscara para tirá-lo da partida"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Tier List de Máscaras de Murderthon",
+          "description": "Todas as máscaras do Murderthon classificadas pelos modificadores de atributos e passivas que realmente trazem para uma partida, para você saber qual desbloquear e qual deixar no armário.",
+          "href": "/items/murderthon-best-mask",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Mask of Fate — a linha de atributos mais flexível, e encaixa em quase qualquer build de sobrevivente ou assassino"
+            },
+            {
+              "label": "A",
+              "detail": "Mask of Lens — bônus de percepção e rastreamento que recompensam uma boa noção do mapa"
+            },
+            {
+              "label": "B",
+              "detail": "Mask of Sheol — uma distribuição de atributos resistente para jogadores que esperam ser pegos"
+            },
+            {
+              "label": "C",
+              "detail": "Mask of Ripe — a máscara de entrada: barata de desbloquear e simples de usar enquanto você aprende"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guia de Mapas de Murderthon",
+          "description": "Conhecimento de layout de cada arena do Murderthon — onde os geradores surgem, quais corredores viram pontos de estrangulamento e como traçar uma fuga antes que o assassino corte seu caminho.",
+          "href": "/maps/murderthon-maps",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "West Park",
+              "detail": "Arena externa aberta com longas linhas de visão e pontos de loop espalhados"
+            },
+            {
+              "label": "Deep Forest",
+              "detail": "Mata densa de neblina onde as pistas sonoras importam mais do que a visão"
+            },
+            {
+              "label": "Facility",
+              "detail": "Corredores internos apertados, maquinário em vários níveis e pontos de estrangulamento brutais"
+            },
+            {
+              "label": "Geradores",
+              "detail": "Cada mapa espalha os geradores entre um núcleo central e os flancos externos"
+            },
+            {
+              "label": "Chamadas",
+              "detail": "Nomeie as zonas pelas quais você é perseguido para o seu esquadrão poder rotacionar"
+            },
+            {
+              "label": "Portões de Saída",
+              "detail": "Dois portões surgem por partida — explore os dois antes que o último gerador termine"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Notícias de Atualizações de Murderthon",
+          "description": "Acompanhamento de patches do Murderthon: qual versão está ativa, o que mudou no último ajuste de equilíbrio e onde a Chilly Creations publica as notas quando chega uma nova atualização.",
+          "href": "/community/murderthon-discord",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "v0.8.6",
+              "detail": "Versão atual ativa do Murderthon no Roblox",
+              "badge": "Ativo"
+            },
+            {
+              "label": "v0.7.6",
+              "detail": "Patch anterior com ajustes de máscaras e talentos"
+            },
+            {
+              "label": "Discord",
+              "detail": "A Chilly Creations publica notas de patch, eventos e novos códigos no servidor oficial"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guia de Controles de Murderthon",
+          "description": "Uma referência rápida do esquema de controle do Murderthon — como se mover, correr, interagir com objetivos, saltar em plena perseguição e abrir o menu que guarda seus códigos.",
+          "href": "/guide/murderthon-tutorial",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Ande com WASD e corra em terreno aberto — correr esgota sua barra de resistência"
+            },
+            {
+              "label": "2",
+              "detail": "Pressione E para interagir com geradores, portões de saída e objetos do mapa"
+            },
+            {
+              "label": "3",
+              "detail": "Pule e escale com Espaço para passar por janelas e obstáculos baixos em plena perseguição"
+            },
+            {
+              "label": "4",
+              "detail": "Golpeie com o clique esquerdo como assassino — um golpe mal cronometrado custa a perseguição"
+            },
+            {
+              "label": "5",
+              "detail": "Acione sua habilidade M.A.S.K equipada na barra de habilidades quando a perseguição virar"
+            },
+            {
+              "label": "6",
+              "detail": "Abra o menu *** no canto inferior esquerdo para resgatar códigos e ajustar as configurações"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "description": "Respostas rápidas para as perguntas mais comuns sobre o Murderthon.",
+      "items": [
+        {
+          "question": "O que é Murderthon?",
+          "answer": "Murderthon é um jogo de terror assimétrico 4v1 gratuito no Roblox feito pela Chilly Creations. Quatro sobreviventes trabalham juntos para reparar os geradores e escapar da prova enquanto um assassino mascarado os caça."
+        },
+        {
+          "question": "Qual classe os iniciantes devem escolher no Murderthon?",
+          "answer": "Handyman é a classe mais fácil do Murderthon para novos sobreviventes porque sua utilidade é simples de usar, enquanto Medic combina com jogadores que querem manter o esquadrão vivo. Jogue algumas partidas com cada uma antes de se decidir por uma função."
+        },
+        {
+          "question": "Como resgato os códigos de Murderthon?",
+          "answer": "Abra o Murderthon, clique no botão *** no canto inferior esquerdo, digite o código na caixa ENTER CODE e pressione REDEEM. Os códigos de Murderthon diferenciam maiúsculas de minúsculas, então digite-os exatamente como estão escritos."
+        },
+        {
+          "question": "Quantos jogadores tem uma partida de Murderthon?",
+          "answer": "Uma partida padrão de Murderthon é um confronto 4v1: quatro sobreviventes contra um assassino. Os sobreviventes compartilham geradores, reanimações e rotas de fuga, enquanto o assassino precisa dividir a atenção por todo o mapa."
+        },
+        {
+          "question": "O que são as M.A.S.K no Murderthon?",
+          "answer": "As M.A.S.K são as configurações de máscara no Murderthon. Cada máscara carrega seus próprios modificadores de atributos e habilidades, e tanto sobreviventes quanto assassinos equipam uma para moldar como jogam a partida."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para Sobreviver ao Murderthon?",
+      "description": "Da sua primeira prova na Westcord Inc. até escapar da M.A.S.K., nossa wiki da comunidade cobre você com guias gratuitos e atualizados.",
+      "primary": "Ler o Guia para Iniciantes",
+      "secondary": "Jogar no Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guia para Iniciantes de Murderthon — Como Jogar, Dicas e Estratégias",
+    "overviewDescription": "Comece sua primeira partida do jeito certo. Estes guias de Murderthon cobrem o básico do jogo, os objetivos do sobrevivente, as respostas do assassino e as estratégias que mantêm você vivo além dos primeiros minutos."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de Murderthon — Shards e Banners Grátis",
+    "overviewDescription": "Todos os códigos ativos do Murderthon em um só lugar, além de um passo a passo de resgate para você garantir Shards e banners grátis antes que expirem."
+  },
+  "characters": {
+    "overviewTitle": "Personagens de Murderthon — Sobreviventes e Assassinos",
+    "overviewDescription": "Perfis de todos os personagens do Murderthon, de Enforcer e Handyman a Lens, Pierce, Sheol, Sin, Ripe e Divide, com as habilidades que cada um traz para uma partida."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Murderthon — Classes, Talentos e Combate",
+    "overviewDescription": "Aprenda como o Murderthon realmente funciona: funções de classe, builds de talentos e vantagens, ferramentas de rastreamento do assassino e as regras de combate que decidem quem escapa."
+  },
+  "items": {
+    "overviewTitle": "Máscaras e Itens de Murderthon — Lista Completa",
+    "overviewDescription": "Uma visão completa das máscaras e itens do Murderthon, incluindo a Mask of Fate, Lens, Sin, Sheol e Ripe, com os atributos e habilidades que cada uma adiciona a uma configuração."
+  },
+  "maps": {
+    "overviewTitle": "Mapas de Murderthon — West Park, Deep Forest e Facility",
+    "overviewDescription": "Percorra todos os mapas do Murderthon antes de a partida começar. Detalhamento de rotas, localizações de objetivos e caminhos de fuga para West Park, Deep Forest e Facility."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de Murderthon — Discord, Reddit, Lore e Fanart",
+    "overviewDescription": "Onde a comunidade do Murderthon se reúne: links oficiais de Discord e Reddit, além de análises de lore, mostras de fanart e a trilha sonora que define o clima."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação do Wiki",
+    "activeCodes": "Códigos Ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos Passos",
+    "needHelp": "Precisa de Ajuda?",
+    "relatedReading": "Leitura Relacionada",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "O guia que você procura pode ter sido movido ou ainda não foi adicionado.",
+    "cta": "Ver Todos os Guias"
+  },
+  "footer": {
+    "aboutTitle": "Murderthon Wiki",
+    "about": "O Murderthon Wiki é um centro de guias independente feito por fãs que cobre estratégias de sobrevivente, dicas de assassino, máscaras, mapas, códigos e o conhecimento essencial do jogo que jogadores novos e veteranos precisam para sobreviver às provas da Westcord Inc.",
+    "quickLinks": "Links Rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Murderthon Wiki. Não afiliado à Chilly Creations ou à Roblox.",
+    "description": "Jogo de terror assimétrico 4v1 grátis no Roblox. Repare os geradores, escape do assassino.",
+    "playGame": "Jogar Murderthon no Roblox",
+    "officialDiscord": "Discord Oficial",
+    "officialYoutube": "YouTube Oficial",
+    "vvBuilder": "Ferramentas do Murderthon Wiki",
+    "beginnerGuide": "Guia para Iniciantes",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  }
+}
