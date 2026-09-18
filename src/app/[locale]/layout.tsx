@@ -60,9 +60,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     "@context": "https://schema.org",
     "@type": "Organization",
     name: siteConfig.name,
+    alternateName: siteConfig.shortName,
     url: siteUrl,
+    description: siteConfig.description,
     logo: `${siteUrl}/android-chrome-512x512.png`,
     image: `${siteUrl}/images/hero.webp`,
+    sameAs: [siteConfig.social?.discord, siteConfig.social?.youtube].filter(Boolean),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;

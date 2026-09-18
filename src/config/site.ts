@@ -29,8 +29,10 @@ export const siteConfig: SiteConfig = {
   gameUrl: "https://www.roblox.com/games/80984321649009/Murderthon",
   heroVideoId: "cJ_aA0Oy0M0", // A Beginner's Guide To Murderthon! | 20+ Tips | Roblox
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    // Chilly Creations (Murderthon developer) official community server
+    discord: "https://discord.com/servers/chilly-creations-community-server-1127407202353807412",
+    // Chilly Creations official game-developing channel
+    youtube: "https://www.youtube.com/@chillycreations",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
