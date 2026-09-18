@@ -1,5 +1,5 @@
 import { siteConfig } from "@/config/site";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import { hasLocale } from "next-intl";
@@ -12,7 +12,15 @@ import { routing } from "@/i18n/routing";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || siteConfig.url;
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#c52020" },
+    { media: "(prefers-color-scheme: dark)", color: "#090909" },
+  ],
+  colorScheme: "dark light",
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -24,8 +32,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "VV: ULTIMATUM Wiki", template: "%s" },
-    description: "Complete VV: ULTIMATUM fan wiki with codes, bosses, builds, races, guides and progression walkthroughs.",
+    title: { default: "Murderthon Wiki - Codes, Guides & Killer Tips", template: "%s" },
+    description: siteConfig.description,
+    applicationName: siteConfig.name,
+    manifest: "/manifest.json",
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+        { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+      ],
+      apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+    },
+    appleWebApp: { capable: true, title: siteConfig.shortName, statusBarStyle: "black-translucent" },
     openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
     twitter: { card: "summary_large_image", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
