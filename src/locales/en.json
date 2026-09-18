@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Murderthon Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the 4v1 loop from your very first trial: repair the generators, break line of sight, and reach an exit gate before the killer does."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Class to Pick",
+          "description": "Compare the Murderthon class roster before you lock in a role, and find the kit that matches how you actually want to play."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "All Working Codes",
+          "description": "Redeem every active Murderthon code for free Shards and the exclusive Vestige Banner before they stop working."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "M.A.S.K & Talents",
+          "description": "Stack mask passives with class talents to build a survivor or killer loadout that carries you through higher-pressure lobbies."
         }
       ]
     },
@@ -66,78 +66,78 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Murderthon Codes",
+        "Beginner Guide",
+        "Mask Tier List",
+        "Map Callouts"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need from your first trial to reading the killer, holding a chase, and escaping the map.",
+          "href": "/guide/murderthon-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "description": "All working Murderthon codes with rewards and redeem steps, before they expire.",
+          "href": "/codes/murderthon-codes"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "M.A.S.K Database",
+          "description": "Every mask in Murderthon with its stat modifiers, abilities, and how to unlock it.",
+          "href": "/items/murderthon-masks"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Which Class Should You Pick?",
+          "description": "Handyman, Medic, and the rest of the roster compared so you can find your role.",
+          "href": "/mechanics/murderthon-classes"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Killer Roster",
+          "description": "Every masked killer in Murderthon, with tracking tools, cooldowns, and counterplay.",
+          "href": "/mechanics/murderthon-killers"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Best Mask Tier List",
+          "description": "All Murderthon masks ranked by the stats and passives they actually bring to a trial.",
+          "href": "/items/murderthon-best-mask"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Best Talents & Builds",
+          "description": "Optimal talent picks and mask combos for both survivors and killers.",
+          "href": "/mechanics/murderthon-talents"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Map Guides",
+          "description": "West Park, Deep Forest, and Facility broken down by generators, chokepoints, and escape gates.",
+          "href": "/maps/murderthon-maps"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Survivor Guide",
+          "description": "Generator routing, pallet loops, vents, and revives for every Murderthon trial.",
+          "href": "/guide/murderthon-survivor-guide"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Murderthon?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Murderthon is a 4v1 asymmetrical horror game on Roblox from Chilly Creations. Four survivors drop into a trial and race to repair the generators and open the exit gates, while a single masked killer hunts them through the map.",
+        "Every round is a chase. Survivors lean on stamina management, pallets, vents, and revives, while killers build around M.A.S.K abilities, tracking, and cooldown timing. Classes, talents, and unlockable masks let both sides tune a loadout before the match even starts."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Chilly Creations"
         },
         {
           "label": "Platform",
@@ -145,158 +145,273 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Asymmetrical Horror"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "11.5M+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Roles",
+          "value": "Survivor & Killer"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Active Codes",
+          "value": "4"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Update Cadence",
+          "value": "Weekly"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Murderthon Wiki",
+      "description": "Everything you need to survive the trials: active Murderthon codes, beginner and survivor guides, the killer roster, mask stats, map layouts, and the controls that keep you alive.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Murderthon Codes",
+          "description": "Every redeemable Murderthon code in one place, with the Shards and banners each one grants, plus the exact steps to claim them before they stop working.",
+          "href": "/codes/murderthon-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "Vestige",
+              "detail": "Redeem for the exclusive Vestige Banner",
+              "badge": "Active"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "200KVISITS",
+              "detail": "Redeem for 1,000 Shards",
+              "badge": "Active"
+            },
+            {
+              "label": "FROST",
+              "detail": "Redeem for 250 Shards",
+              "badge": "Active"
+            },
+            {
+              "label": "DIVIDE",
+              "detail": "Redeem for 250 Shards",
+              "badge": "Active"
             },
             {
               "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "detail": "Codes are case-sensitive — open the *** menu in the bottom-left corner and press REDEEM"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Murderthon Beginner Guide",
+          "description": "A first-session walkthrough of the Murderthon loop: which side you are on, how generators open the exit gates, and the movement habits that keep a new survivor alive past the first chase.",
+          "href": "/guide/murderthon-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Pick your side: four survivors race to escape while one killer hunts the map"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Learn the objective loop — repair generators to power the exit gates before the timer runs out"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Manage stamina: sprint only when you are being chased so you always have a burst left"
+            },
+            {
+              "label": "4",
+              "detail": "Play around pallets, vaults, and vents to break the killer's line of sight"
+            },
+            {
+              "label": "5",
+              "detail": "Revive and unhook downed teammates; a full squad escapes far more often than a solo runner"
+            },
+            {
+              "label": "6",
+              "detail": "Bank your Shards and unlock a M.A.S.K before your next trial for a passive edge"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Murderthon Survivor Guide",
+          "description": "The survivor half of Murderthon in detail: generator routing, escape gate spawns, chase looping, and the teamwork that decides whether your squad walks out together.",
+          "href": "/guide/murderthon-survivor-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Generators",
+              "detail": "Repair every generator on the map to power the exit gates"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Escape Routes",
+              "detail": "Scout gate spawns on West Park, Deep Forest, and Facility early"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Chases",
+              "detail": "Loop pallets and vaults to burn the killer's cooldowns"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Vents",
+              "detail": "Slip through vents to break line of sight and reposition"
+            },
+            {
+              "label": "Revives",
+              "detail": "Pick up downed teammates before the killer finishes them"
+            },
+            {
+              "label": "Teamwork",
+              "detail": "Split objectives so two runners never waste time on one generator"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Murderthon Killer Guide",
+          "description": "How to run the killer side of Murderthon: patrolling the generator circuit, reading sound cues, timing your swing, and using each M.A.S.K kit to close out a trial.",
+          "href": "/mechanics/murderthon-killers",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Patrol",
+              "detail": "Walk the generator circuit and pressure the highest-progress objective"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Tracking",
+              "detail": "Read footprints, sound cues, and movement trails to find hiding runners"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Abilities",
+              "detail": "Every M.A.S.K has its own cooldown kit — learn the timing windows"
+            },
+            {
+              "label": "Lunge",
+              "detail": "Time your swing late; a whiffed attack hands back the whole chase"
+            },
+            {
+              "label": "Pressure",
+              "detail": "Force runners off generators instead of committing to one long chase"
+            },
+            {
+              "label": "Mori",
+              "detail": "Finish a downed runner with your mask's execution to remove them from the trial"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Murderthon Masks Tier List",
+          "description": "Every Murderthon mask ranked by the stat modifiers and passives it actually brings to a trial, so you know which one to unlock and which to leave in the locker.",
+          "href": "/items/murderthon-best-mask",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "S",
+              "detail": "Mask of Fate — the most flexible stat line, and it fits almost any survivor or killer build"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "A",
+              "detail": "Mask of Lens — perception and tracking bonuses that reward strong map awareness"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "B",
+              "detail": "Mask of Sheol — a durable stat spread for players who expect to get caught"
+            },
+            {
+              "label": "C",
+              "detail": "Mask of Ripe — the entry mask: cheap to unlock and simple to run while you learn"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Murderthon Maps Guide",
+          "description": "Layout knowledge for every Murderthon arena — where generators spawn, which corridors become chokepoints, and how to route an escape before the killer cuts you off.",
+          "href": "/maps/murderthon-maps",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "West Park",
+              "detail": "Open outdoor arena with long sightlines and scattered loop spots"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Deep Forest",
+              "detail": "Fog-heavy woodland where sound cues matter more than sight"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Facility",
+              "detail": "Tight indoor corridors, multi-tier machinery, and brutal chokepoints"
+            },
+            {
+              "label": "Generators",
+              "detail": "Each map spreads generators between a central hub and the outer flanks"
+            },
+            {
+              "label": "Callouts",
+              "detail": "Name the zones you get chased through so your squad can rotate"
+            },
+            {
+              "label": "Exit Gates",
+              "detail": "Two gates spawn per trial — scout both before the last generator finishes"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Murderthon Update News",
+          "description": "Patch tracking for Murderthon: which build is live, what changed in the last balance pass, and where Chilly Creations posts the notes when a new trial update lands.",
+          "href": "/community/murderthon-discord",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "v0.8.6",
+              "detail": "Current live build of Murderthon on Roblox",
+              "badge": "Live"
+            },
+            {
+              "label": "v0.7.6",
+              "detail": "Previous patch covering mask and talent tuning"
+            },
+            {
+              "label": "Discord",
+              "detail": "Chilly Creations posts patch notes, events, and new code drops in the official server"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Murderthon Controls Guide",
+          "description": "A quick reference for the Murderthon control scheme — how to move, sprint, interact with objectives, vault mid-chase, and open the menu that holds your codes.",
+          "href": "/guide/murderthon-tutorial",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Move with WASD, and sprint across open ground — running drains your stamina bar"
+            },
+            {
+              "label": "2",
+              "detail": "Press E to interact with generators, exit gates, and map props"
+            },
+            {
+              "label": "3",
+              "detail": "Jump and vault with Space to clear windows and low obstacles mid-chase"
+            },
+            {
+              "label": "4",
+              "detail": "Swing with left-click as the killer — a mistimed swing costs you the chase"
+            },
+            {
+              "label": "5",
+              "detail": "Trigger your equipped M.A.S.K ability from the ability bar when a chase turns"
+            },
+            {
+              "label": "6",
+              "detail": "Open the *** menu in the bottom-left corner to redeem codes and adjust settings"
             }
           ]
         }
@@ -304,27 +419,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to the most common questions about Murderthon.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Murderthon?",
+          "answer": "Murderthon is a free 4v1 asymmetrical horror game on Roblox made by Chilly Creations. Four survivors work together to repair the generators and escape the trial while one masked killer hunts them down."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Which class should beginners pick in Murderthon?",
+          "answer": "Handyman is the easiest Murderthon class for new survivors because its utility is simple to use, while Medic suits players who want to keep the squad alive. Run a few trials on each before committing to one role."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I redeem Murderthon codes?",
+          "answer": "Open Murderthon, click the *** button in the bottom-left corner, type the code into the ENTER CODE box, and press REDEEM. Murderthon codes are case-sensitive, so enter them exactly as written."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How many players are in a Murderthon match?",
+          "answer": "A standard Murderthon trial is a 4v1 match: four survivors against one killer. Survivors share generators, revives, and escape routes, while the killer has to split attention across the whole map."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "What are M.A.S.K in Murderthon?",
+          "answer": "M.A.S.K are the mask loadouts in Murderthon. Each mask carries its own stat modifiers and abilities, and both survivors and killers equip one to shape how they play the trial."
         }
       ]
     },
