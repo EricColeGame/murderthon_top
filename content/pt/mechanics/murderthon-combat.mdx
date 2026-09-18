@@ -1,0 +1,180 @@
+export const metadata = {
+  title: "Guia de Combate do Murderthon: Mecânicas, Perseguições e Counters para Assassinos",
+  description: "Domine as mecânicas de combate do Murderthon no Roblox. Aprenda looping de sobreviventes, estratégias de assassino M.A.S.K, atributos, pressão de geradores e táticas de fuga.",
+  category: "mechanics",
+  date: "2026-09-19",
+}
+
+Dominar o universo de alta tensão do **combate no Murderthon** exige mais do que reflexos rápidos; demanda um entendimento profundo de movimentação, timing e jogos psicológicos de antecipação (mind games). Nesta experiência de terror assimétrico 4v1 ambientada nos testes distorcidos da Westcord Inc., quatro sobreviventes lutam por suas vidas contra um implacável assassino mascarado conhecido como M.A.S.K. Compreender como o **combate no Murderthon** funciona — desde os frames de recuperação de ataque até os saltos sobre obstáculos — é o principal fator que separa cobaias mortas de fugitivos bem-sucedidos.
+
+Quer você prefira caçar presas como o assassino ou coordenar reparos de geradores sob extrema pressão, conhecer as interações matemáticas e mecânicas exatas de cada confronto elevará drasticamente sua taxa de vitória. Este guia abrangente detalha as mecânicas centrais de combate, gerenciamento de perseguição, dinâmicas de assassino e contra-ataques avançados para sobreviventes.
+
+---
+
+## Princípios Básicos do Combate no Murderthon
+
+O combate em *Murderthon* não funciona como em um jogo de luta tradicional ou shooter em primeira pessoa. Em vez disso, ele gira em torno de confrontos assimétricos onde a percepção espacial, as diferenças de velocidade de movimento e o gerenciamento de recursos determinam o vencedor. O assassino detém a dominância ofensiva, enquanto os sobreviventes dependem de evasões defensivas, atordoamentos com o cenário e distrações cooperativas.
+
+```
+       [Avistamento do Sobrevivente]
+                     │
+                     ▼
+           [Iniciar Perseguição]
+            /                 \
+           ▼                   ▼
+ [Looping do Sobrevivente]  [Mind Game do Assassino]
+     (Saltos/Pallets)         (Fintas/Double-Backs)
+           │                   │
+           └─────────┬─────────┘
+                     ▼
+           [Interação de Ataque]
+            /                 \
+           ▼                   ▼
+     [Golpe Certeiro]       [Golpe no Vazio / Erro]
+ (Velocidade do Sobrevivente) (Recuperação do Assassino)
+```
+
+### Velocidades de Movimento e Hitboxes
+
+Cada confronto é regido por uma matemática rigorosa de movimentação. Os assassinos naturalmente correm mais rápido em linha reta do que os sobreviventes. Para sobreviver, as cobaias devem quebrar linhas de visão, aproveitar a geometria do mapa e forçar o assassino a errar seus golpes.
+
+| Função / Estado | Velocidade Base (Studs/Seg) | Vantagem Relativa | Vulnerabilidade Principal |
+| :--- | :--- | :--- | :--- |
+| **Sobrevivente (Correndo)** | 16.0 | Linha de base padrão | Linhas de visão retas |
+| **Sobrevivente (Agachado)** | 8.5 | Furtividade / Passos silenciosos | Perda severa de velocidade |
+| **Sobrevivente (Impulso de Dano)** | 22.0 (por 2.0s) | Criação instantânea de distância | Duração temporária |
+| **M.A.S.K (Perseguição Padrão)** | 18.4 | +15% de velocidade sobre o sobrevivente | Raio de curva / esquinas |
+| **M.A.S.K (Sede de Sangue Tier 1)** | 19.2 | +20% de velocidade sobre o sobrevivente | Queda de pallets, perda de visão |
+| **M.A.S.K (Ataque Errado)** | Desacelera para 5.0 | Penalidade extrema | Reposicionamento livre do sobrevivente |
+
+Quando um assassino desfere um golpe, ele se compromete com uma animação que trava seu ímpeto direcional. Se o ataque acertar, o sobrevivente recebe o dano, grita e ganha um aumento temporário de velocidade de 2 segundos para se distanciar da ameaça. Se o ataque errar o alvo, o assassino sofre uma penalidade prolongada de limpeza de arma ou recuperação de ataque, permitindo que sobreviventes atentos ganhem uma distância considerável.
+
+Para experimentar o jogo diretamente e conferir as notas de atualização oficiais, os jogadores podem explorar a [página oficial do Murderthon no Roblox](https://www.roblox.com/games/80984321649009/Murderthon).
+
+---
+
+## Mecânicas Ofensivas do Assassino M.A.S.K
+
+Jogar como um M.A.S.K exige paciência e precisão implacável. Como os sobreviventes podem utilizar a câmera em terceira pessoa para espiar esquinas, um assassino eficaz deve empregar trajetórias enganosas, buffering de ataques e controle de espaço.
+
+### A Hierarquia de Ataques
+
+Executar ataques no *Murderthon* envolve equilibrar cortes rápidos com investidas longas (lunges). Os lunges oferecem maior alcance ao custo de frames de recuperação mais longos caso você calcule mal a movimentação do sobrevivente.
+
+| Tipo de Ataque | Alcance (Studs) | Tempo de Preparação | Recuperação de Erro | Recuperação de Acerto | Aplicação Estratégica |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Corte Rápido** | 3.5 | 0.15s | 1.1s | 2.4s | Corredores estreitos, quedas diretas de pallet |
+| **Investida Carregada (Lunge)** | 7.2 | 0.45s | 1.8s | 2.7s | Campos abertos, acertar animações de salto |
+| **Interrupção de Salto** | 2.0 | Instantâneo | N/A | Agarrão Especial | Capturar sobreviventes feridos no meio do salto |
+| **Golpe em Destroços** | 4.0 | 0.30s | 1.4s | 1.4s | Quebrar barricadas ou barreiras de salto |
+
+### Mind Games e Quebra de Linha de Visão
+
+A técnica mais letal de um assassino no **combate avançado do Murderthon** é ocultar a mancha vermelha (conhecido como "moonwalk" ou "double-back"). O assassino projeta um indicador visual sutil de ameaça à frente de seu modelo. Assassinos experientes escondem esse aviso virando-se para as paredes enquanto andam de costas ao contornar cantos com paredes altas, enganando os sobreviventes para que corram direto na direção de sua arma.
+
+```
+Visão do Sobrevivente:          Trajetória Real do Assassino:
+  [Parede]                         [Parede]
+     │                                │
+     │ ◄── (Esperando Assassino)      │ ◄── (Andando de Costas)
+     │                                │
+[Sobrevivente]                     [M.A.S.K] (Luz vermelha virada)
+```
+
+---
+
+## Combate Defensivo do Sobrevivente: Looping, Pallets e Stuns
+
+Os sobreviventes não carregam armas letais contra o M.A.S.K, mas possuem recursos que funcionam como ferramentas diretas de contenção. Relatos da comunidade destacam que dominar a interação entre saltos de janela e pallets estruturais é essencial para resistir a longos testes.
+
+### A Anatomia de um Loop
+
+O looping é a arte de conduzir o assassino ao redor de um obstáculo do cenário (como um caminhão, caixotes empilhados ou ruínas de construções) para desperdiçar o máximo de tempo possível enquanto seus companheiros de equipe reparam os geradores da Westcord Inc.
+
+| Recurso Defensivo | Duração do Stun | Reset / Exaustão | Timing Ideal |
+| :--- | :--- | :--- | :--- |
+| **Derrubada de Pallet de Madeira** | 2.2 Segundos | Consumido no uso | Derrube assim que o assassino entrar na abertura |
+| **Salto Rápido de Janela** | 0.0 Segundos | Requer 2.5s de corrida em linha reta | Use antes do assassino entrar na distância de lunge |
+| **Salto Médio** | 0.0 Segundos | Penalidade de aproximação em ângulo | Arriscado; vulnerável a golpes durante o salto |
+| **Cegueira com Lanterna** | 1.8 Segundos | Esgotamento de bateria (~12s total) | Cegue o assassino durante a quebra de pallets |
+| **Isca em Armário** | 0.0 Segundos | 30s de Tempo de Recarga | Cria um alerta sonoro para desviar o foco do assassino |
+
+```
+Trajeto Padrão de Looping:
+
+      [Parede do Obstáculo]
+    ┌──────────────────────┐
+    │                      │
+ ──►│ Rota do Sobrevivente │──► [Pallet] ── (Derrubar & Atordoar)
+    │                      │       ▲
+    └──────────────────────┘       │
+     Perseguição do Assassino ─────┘
+```
+
+### Respeitar o Pallet vs. Ganância (Greed)
+
+Em situações de alta pressão, os assassinos frequentemente hesitam ("respeitam") ao se aproximar de um pallet ativo, prevendo que o sobrevivente irá derrubá-lo imediatamente.
+
+- **Loop Ganancioso (Greed):** Se o assassino parar antes da passagem, dê mais uma volta completa na estrutura sem derrubar o pallet. Isso desperdiça de 3 a 4 segundos extras do tempo dele.
+- **Atordoamento com Pallet (Stun):** Se o assassino avançar agressivamente com uma investida pela passagem, derrube o pallet diretamente sobre ele. Isso aciona um atordoamento de 2.2 segundos, reiniciando totalmente a perseguição e cancelando qualquer acúmulo de sede de sangue.
+
+---
+
+## Atributos de Combate e Funções no Teste
+
+Diferentes testes exigem abordagens táticas variadas. Embora o *Murderthon* seja fortemente focado em perseguições tensas de ação e terror, testes da comunidade revelam que compreender os atributos básicos de combate dá às equipes uma vantagem evidente na divisão de tarefas.
+
+| Atributo / Foco | Benefício para Sobrevivente | Impacto no Assassino | Classificação de Prioridade |
+| :--- | :--- | :--- | :--- |
+| **Agilidade / Destreza** | Recuperação de salto mais rápida e curvas mais fechadas | Redução de frames de recuperação de golpes errados | ★★★★★ |
+| **Percepção / Alerta** | Detecção sonora antecipada do perigo se aproximando | Maior visibilidade de faíscas em geradores | ★★★★☆ |
+| **Resistência / Resiliência** | Disparadas pós-dano mais duradouras | Imunidade a sequências de atordoamento abusivas | ★★★★☆ |
+| **Técnica / Eficiência** | Progresso de geradores e autocuras mais rápidos | Destruição mais rápida de pallets e barricadas | ★★★☆☆ |
+
+Definir as funções dos sobreviventes antes do início do teste garante que seus melhores corredores mantenham a atenção do assassino ocupada, enquanto os jogadores focados em eficiência de reparo permanecem focados nos objetivos.
+
+---
+
+## Estratégias Táticas Essenciais para Cenários de Combate
+
+Para vencer as partidas de forma consistente, ambos os lados devem adaptar sua execução com base nos objetivos restantes, nos recursos disponíveis no mapa e nos estados de saúde dos jogadores.
+
+### Estratégia de Sobrevivente: O Giro 360 (360 Spin)
+
+Quando pego em uma área totalmente aberta, sem pallets ou janelas por perto, a principal defesa mecânica de um sobrevivente ferido no **combate do Murderthon** é o giro rotacional.
+
+1. Observe a aproximação do assassino utilizando a câmera livre.
+2. Na fração de segundo em que o assassino iniciar o áudio do golpe ou a animação de ataque, corra bruscamente em direção ao lado não dominante dele.
+3. Gire rapidamente as teclas de movimento enquanto move a câmera na direção oposta.
+4. Se executado corretamente, o impulso para a frente do assassino fará a lâmina passar no vazio por cima do seu ombro, prendendo-o em uma punitiva animação de erro.
+
+### Estratégia de Assassino: Controle de Combate Focado em Objetivos
+
+Perseguir um sobrevivente habilidoso sem parar pelo mapa é a maneira mais fácil de perder a partida. Assassinos de alto nível aplicam uma triagem rigorosa de pressão:
+
+```
+[A perseguição tem menos de 20s?]
+               │
+      ├── SIM ─► [Manter foco e acertar golpe]
+      │
+      └── NÃO ─► [Checar geradores próximos]
+                        │
+                        ├── Sobreviventes presentes? ─► [Trocar de alvo]
+                        └── Tudo calmo?              ─► [Chutar e patrulhar]
+```
+
+- **Abandone Perseguições Desfavoráveis:** Se um sobrevivente alcançar um loop muito forte (como um armazém com janelas duplas), encerre a perseguição imediatamente.
+- **Patrulhe o Triângulo:** Identifique três geradores posicionados próximos uns dos outros. Defenda esse agrupamento com firmeza e force os confrontos dentro deste perímetro compacto.
+
+---
+
+## Perguntas Frequentes (FAQ)
+
+### O que devo fazer se o assassino me alcançar em campo aberto no Murderthon?
+Se você for pego longe de pallets ou janelas, evite correr em linha reta. Faça movimentações em zigue-zague irregulares para atrapalhar a mira do golpe. Conforme ele se aproximar da distância de lunge, execute um giro de 360 graus bem fechado em direção ao flanco dele para tirar vantagem do bloqueio de mira da animação de ataque.
+
+### Como a recuperação de ataque afeta os confrontos no Murderthon?
+Quando um assassino erra um ataque, sua velocidade cai para cerca de 5 studs por segundo por até 1.8 segundos. Esse intervalo concede tempo suficiente para os sobreviventes alcançarem uma janela ou pallet próximo. Por outro lado, acertar um golpe dá ao sobrevivente um impulso de velocidade de 2 segundos, restaurando a distância entre ambos os jogadores.
+
+### Os sobreviventes podem revidar e eliminar o assassino?
+Não. Em *Murderthon*, os sobreviventes não podem matar o M.A.S.K. A dinâmica de combate é puramente defensiva e evasiva. Os sobreviventes revidam usando elementos do cenário, atordoamentos com pallets, cegueiras de lanterna e bloqueios corporais (body-blocks) coordenados para proteger companheiros vulneráveis e escapar do teste.

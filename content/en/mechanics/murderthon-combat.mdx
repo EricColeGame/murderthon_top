@@ -1,0 +1,180 @@
+export const metadata = {
+  title: "Murderthon Combat Guide: Mechanics, Chases, and Killer Counters",
+  description: "Master Murderthon combat mechanics on Roblox. Learn survivor looping, M.A.S.K killer strategies, stats, generator pressure, and chase survival tactics.",
+  category: "mechanics",
+  date: "2026-09-19",
+}
+
+Mastering the high-stakes world of **Murderthon combat** requires more than quick reflexes; it demands an intimate understanding of movement, timing, and psychological mind games. In this 4v1 asymmetrical horror experience set inside Westcord Inc.'s twisted trials, four survivors fight for their lives against a relentless masked killer known as a M.A.S.K. Understanding how **Murderthon combat** operates—from attack recovery frames to obstacle vaults—is the single biggest factor separating dead test subjects from successful escapees.
+
+Whether you prefer stalking prey as the killer or coordinating generator repairs under extreme pressure, knowing the precise mathematical and mechanical interactions of each encounter will dramatically elevate your win rate. This comprehensive guide breaks down the core mechanics of engagement, chase management, killer dynamics, and high-level survivor counterplay.
+
+---
+
+## Core Principles of Murderthon Combat
+
+Combat in *Murderthon* does not function like a traditional brawler or first-person shooter. Instead, it revolves around asymmetrical engagements where spatial awareness, movement speed differentials, and resource management determine the victor. The killer wields offensive dominance, while survivors rely on defensive evasions, environmental stuns, and cooperative distractions.
+
+```
+       [Survivor Spotting]
+                │
+                ▼
+        [Initiate Chase]
+         /              \
+        ▼                ▼
+[Survivor Looping]   [Killer Mind Game]
+   (Vaults/Drops)       (Double-Backs)
+        │                │
+        └───────┬────────┘
+                ▼
+      [Attack Interaction]
+       /                \
+      ▼                  ▼
+ [Clean Hit]        [Whiff / Miss]
+ (Survivor Speed)   (Killer Recovery)
+```
+
+### Movement Speeds and Hitboxes
+
+Every encounter is governed by strict movement mathematics. Killers naturally run faster in a straight line than survivors. To survive, subjects must break sightlines, leverage geometry, and force the killer to swing and miss. 
+
+| Role / State | Base Velocity (Studs/Sec) | Relative Advantage | Core Vulnerability |
+| :--- | :--- | :--- | :--- |
+| **Survivor (Running)** | 16.0 | Base baseline | Linear sightlines |
+| **Survivor (Crouching)** | 8.5 | Stealth / Silent audio | Severe speed loss |
+| **Survivor (Injured Boost)** | 22.0 (for 2.0s) | Instant distance creation | Temporary duration |
+| **M.A.S.K (Standard Chase)** | 18.4 | +15% speed over survivor | Turning radius / corners |
+| **M.A.S.K (Bloodlust Tier 1)** | 19.2 | +20% speed over survivor | Pallet drops, loss of sight |
+| **M.A.S.K (Missed Attack)** | Decelerates to 5.0 | Extreme penalty | Free survivor repositioning |
+
+When a killer swings, they commit to an animation that locks their directional momentum. If the strike lands, the survivor absorbs damage, cries out, and receives a temporary 2-second speed surge to put distance between themselves and the threat. If the strike whiffs, the killer suffers an extended weapon-cleaning or attack-recovery penalty, allowing alert survivors to gain substantial yardage.
+
+To experience the game directly and review official patch notes, players can explore the [official Murderthon page on Roblox](https://www.roblox.com/games/80984321649009/Murderthon).
+
+---
+
+## M.A.S.K Killer Offensive Mechanics
+
+Playing as a M.A.S.K requires patience and ruthless precision. Because survivors can utilize third-person camera angles to peek around corners, an effective killer must employ deceptive pathing, attack buffering, and spatial zoning.
+
+### The Attack Hierarchy
+
+Executing attacks in *Murderthon* involves balancing quick swipes against extended lunge attacks. Lunges give extended range at the cost of longer recovery frames if you misjudge the survivor's movement.
+
+| Attack Type | Range (Studs) | Wind-Up Time | Miss Recovery | Hit Recovery | Strategic Application |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Quick Slash** | 3.5 | 0.15s | 1.1s | 2.4s | Tight corridors, direct pallet drops |
+| **Charged Lunge** | 7.2 | 0.45s | 1.8s | 2.7s | Open fields, catching vault animations |
+| **Vault Interrupt** | 2.0 | Instant | N/A | Special Grab | Snatching injured survivors mid-vault |
+| **Debris Strike** | 4.0 | 0.30s | 1.4s | 1.4s | Breaking barricades or vault barriers |
+
+### Mind Games and Breaking Line of Sight
+
+The most lethal killer technique in high-level **Murderthon combat** is the red stain hide (also known as the "moonwalk" or "double-back"). The killer projects a subtle visual threat indicator ahead of their model. Smart killers hide this warning by facing walls while walking backward around high-walled corners, tricking survivors into running directly into their weapon swing.
+
+```
+Survivor View:                Actual Killer Pathing:
+  [Wall]                        [Wall]
+    │                             │
+    │ ◄── (Expecting Killer)      │ ◄── (Walking Backward)
+    │                             │
+[Survivor]                      [M.A.S.K] (Stain pointed away)
+```
+
+---
+
+## Survivor Defensive Combat: Looping, Pallets, and Stuns
+
+Survivors do not carry lethal weaponry against the M.A.S.K, but they possess tools that function as direct combat deterrents. Community reports highlight that mastering the interaction between window vaults and structural pallets is essential to surviving long trials.
+
+### The Anatomy of a Loop
+
+Looping is the art of leading a killer around an environmental obstacle (such as a truck, stacked crates, or building ruins) to waste as much of their time as possible while teammates repair Westcord Inc. generators.
+
+| Defensive Resource | Stun Duration | Reset / Exhaustion | Ideal Timing |
+| :--- | :--- | :--- | :--- |
+| **Wooden Pallet Drop** | 2.2 Seconds | Consumed on use | Drop just as the killer steps into the frame |
+| **Fast Window Vault** | 0.0 Seconds | Requires 2.5s sprint run-up | Use before the killer enters lunge distance |
+| **Medium Vault** | 0.0 Seconds | Angled approach penalty | Risky; susceptible to vault hits |
+| **Flashlight Blind** | 1.8 Seconds | Battery depletion (~12s total) | Blind killer during pallet break animations |
+| **Locker Decoy** | 0.0 Seconds | 30s Cooldown | Create audio cue to divert killer attention |
+
+```
+Standard Looping Path:
+
+       [Obstacle Wall]
+    ┌──────────────────┐
+    │                  │
+ ──►│  Survivor Path   │──► [Pallet] ── (Drop & Stun)
+    │                  │       ▲
+    └──────────────────┘       │
+      Killer Pursuit ──────────┘
+```
+
+### Pallet Respect vs. Greed
+
+In high-pressure situations, killers often stop short ("respect") when approaching an active pallet, anticipating that the survivor will pull it down immediately. 
+
+- **Greedy Looping:** If the killer stops short, run around the structure one more time without dropping the pallet. This wastes an extra 3 to 4 seconds of the killer's time.
+- **Pallet Stun:** If the killer lunges aggressively through the opening, pull the pallet down directly onto their head. This triggers a 2.2-second stun, completely resetting the chase and clearing any built-up bloodlust momentum.
+
+---
+
+## Combat Attributes and Trial Roles
+
+Different trials demand varying tactical approaches. While *Murderthon* focuses heavily on action-oriented horror chases, community experiments show that understanding foundational combat attributes gives teams a clear edge when dividing responsibilities.
+
+| Attribute / Focus | Survivor Benefit | Killer Impact | Priority Rating |
+| :--- | :--- | :--- | :--- |
+| **Agility / Dexterity** | Faster vault recovery and tighter turning | Reduced missed-swing recovery frames | ★★★★★ |
+| **Awareness / Perception** | Early audio detection of approaching terror | Increased visibility of generator sparks | ★★★★☆ |
+| **Endurance / Resilience** | Longer sprint bursts post-injury | Immune to stun-chaining exploits | ★★★★☆ |
+| **Technique / Efficiency** | Faster generator progress and self-heals | Quicker pallet and barricade destruction | ★★★☆☆ |
+
+Assigning survivor roles before the trial begins ensures that your best chasers occupy the killer's attention, while players focused on repair efficiency remain glued to objectives.
+
+---
+
+## Essential Tactical Strategies for Combat Scenarios
+
+To consistently win trials, both sides must adapt their execution based on remaining objectives, available map resources, and player health states.
+
+### Survivor Strategy: The 360 Spin Counter
+
+When caught in a wide-open area with no pallets or windows nearby, an injured survivor's primary mechanical defense during **Murderthon combat** is the rotational spin. 
+
+1. Watch the killer approach using your free-look camera.
+2. The split second the killer begins their swing audio or wind-up animation, sprint sharply toward the killer's non-dominant side.
+3. Rapidly rotate your movement keys while dragging your camera in the opposite direction.
+4. If performed correctly, the killer's forward momentum will carry their blade harmlessly over your shoulder, locking them into a punishing whiff animation.
+
+### Killer Strategy: Objective-Based Combat Control
+
+Chasing a skilled survivor endlessly across the map is the easiest way to lose a match. Elite killers apply strict pressure triage:
+
+```
+[Is Chase Under 20s?]
+       │
+      ├── YES ──► [Commit & Secure Hit]
+      │
+      └── NO  ──► [Check Nearby Generators]
+                        │
+                        ├── Survivors Present? ──► [Switch Target]
+                        └── All Quiet?          ──► [Kick & Patrol]
+```
+
+- **Drop Low-Value Chases:** If a survivor reaches a formidable loop (such as a double-window warehouse), abandon the chase immediately.
+- **Patrol the Triangle:** Identify three generators located close to each other. Defend this cluster aggressively and force encounters within this tight perimeter.
+
+---
+
+## Frequently Asked Questions
+
+### What should I do if the killer catches me in the open during Murderthon combat?
+If you are caught away from pallets or windows, avoid running in a straight line. Use irregular serpentine zig-zags to throw off the killer's aim. As they close into lunge range, execute a tight 360-degree spin into their flank to capitalize on their attack lock-out frames.
+
+### How does attack recovery affect Murderthon combat engagements?
+When a killer misses an attack, their movement speed drops to approximately 5 studs per second for up to 1.8 seconds. This window gives survivors enough time to reach a nearby vault or pallet. Conversely, landing a hit allows the survivor to gain a 2-second speed burst, resetting the distance between both players.
+
+### Can survivors fight back and eliminate the killer?
+No. In *Murderthon*, survivors cannot kill the M.A.S.K. The combat dynamic is entirely defensive and evasive. Survivors fight back using environmental hazards, pallet stuns, flashlight blinds, and coordinated body-blocks to protect vulnerable teammates and escape the trial.

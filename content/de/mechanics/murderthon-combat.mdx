@@ -1,0 +1,180 @@
+export const metadata = {
+  title: "Murderthon Kampf-Guide: Mechaniken, Verfolgungsjagden und Killer-Konter",
+  description: "Meistere die Murderthon-Kampfmechaniken auf Roblox. Lerne Survivor-Looping, M.A.S.K.-Killer-Strategien, Werte, Generatordruck und Taktiken zum Überleben von Verfolgungen.",
+  category: "mechanics",
+  date: "2026-09-19",
+}
+
+Das Meistern der nervenaufreibenden Welt des **Murderthon-Kampfes** erfordert mehr als nur schnelle Reflexe; es verlangt ein tiefes Verständnis von Bewegung, Timing und psychologischen Psychospielchen (Mind Games). In diesem asymmetrischen 4v1-Horrorspiel, das in den perfiden Prüfungen von Westcord Inc. angesiedelt ist, kämpfen vier Überlebende gegen einen unerbittlichen maskierten Killer namens M.A.S.K. um ihr Leben. Zu verstehen, wie der **Murderthon-Kampf** funktioniert – von den Erholungs-Frames nach Angriffen bis hin zu Hindernissprüngen –, ist der entscheidende Unterschied zwischen toten Testobjekten und erfolgreichen Flüchtigen.
+
+Egal, ob du lieber als Killer Beute jagst oder unter extremem Druck Generatorreparaturen koordinierst: Die genauen mathematischen und mechanischen Interaktionen jeder Begegnung zu kennen, wird deine Siegesrate drastisch steigern. Dieser umfassende Guide schlüsselt die Kernmechaniken von Gefechten, Verfolgungsmanagement, Killer-Dynamiken und fortgeschrittenem Survivor-Konterspiel auf.
+
+---
+
+## Grundprinzipien des Murderthon-Kampfes
+
+Der Kampf in *Murderthon* funktioniert nicht wie in einem traditionellen Brawler oder Ego-Shooter. Stattdessen dreht er sich um asymmetrische Auseinandersetzungen, bei denen räumliches Bewusstsein, Geschwindigkeitsunterschiede und Ressourcenmanagement den Sieger bestimmen. Der Killer verfügt über die offensive Dominanz, während die Überlebenden auf defensive Ausweichmanöver, Umgebung-Stuns und kooperative Ablenkungen angewiesen sind.
+
+```
+       [Überlebenden gesichtet]
+                │
+                ▼
+      [Verfolgung starten]
+         /              \
+        ▼                ▼
+[Survivor-Looping]   [Killer-Mind-Game]
+   (Vaults/Paletten)    (Antäuschen/Rückwärtslaufen)
+        │                │
+        └───────┬────────┘
+                ▼
+       [Angriffsinteraktion]
+       /                \
+      ▼                  ▼
+ [Treffer]          [Fehlschlag / Whiff]
+ (Survivor-Speed)   (Killer-Erholung)
+```
+
+### Bewegungsgeschwindigkeiten und Hitboxen
+
+Jede Begegnung unterliegt einer strikten Bewegungsmathematik. Killer laufen auf gerader Linie von Natur aus schneller als Überlebende. Um zu überleben, müssen Probanden Sichtlinien brechen, die Umgebungsgeometrie nutzen und den Killer zu Fehlschlägen zwingen.
+
+| Rolle / Zustand | Grundgeschwindigkeit (Studs/Sek.) | Relativer Vorteil | Zentrale Schwachstelle |
+| :--- | :--- | :--- | :--- |
+| **Überlebender (Rennen)** | 16.0 | Basiswert | Lineare Sichtlinien |
+| **Überlebender (Ducken)** | 8.5 | Heimlichkeit / Leise Schritte | Drastischer Geschwindigkeitsverlust |
+| **Überlebender (Verletzungsschub)** | 22.0 (für 2,0s) | Sofortiger Distanzgewinn | Zeitlich begrenzt |
+| **M.A.S.K. (Standard-Verfolgung)** | 18.4 | +15% schneller als Überlebende | Wenderadius / Ecken |
+| **M.A.S.K. (Blutdurst Stufe 1)** | 19.2 | +20% schneller als Überlebende | Palettenstürze, Sichtverlust |
+| **M.A.S.K. (Verfehlter Angriff)** | Verlangsamt auf 5.0 | Extremer Malus | Freie Neupositionierung für Survivor |
+
+Wenn ein Killer zuschlägt, bindet er sich an eine Animation, die seinen Richtungsimpuls vorübergehend festlegt. Trifft der Schlag, erleidet der Überlebende Schaden, schreit auf und erhält einen temporären 2-sekündigen Geschwindigkeitsschub, um Distanz zur Bedrohung aufzubauen. Verfehlt der Schlag, erleidet der Killer eine längere Waffenreinigungs- oder Erholungsstrafe, was aufmerksamen Überlebenden wertvollen Vorsprung verschafft.
+
+Um das Spiel direkt zu erleben und offizielle Patchnotizen einzusehen, können Spieler die [offizielle Murderthon-Seite auf Roblox](https://www.roblox.com/games/80984321649009/Murderthon) besuchen.
+
+---
+
+## M.A.S.K.-Killer: Offensive Mechaniken
+
+Das Spielen als M.A.S.K. erfordert Geduld und rücksichtslose Präzision. Da Überlebende Third-Person-Kamerawinkel nutzen können, um um Ecken zu spähen, muss ein effektiver Killer auf täuschende Wegfindung, Attack-Buffering und Raumkontrolle setzen.
+
+### Die Angriffshierarchie
+
+Angriffe in *Murderthon* erfordern die richtige Balance zwischen schnellen Hieben und weitreichenden Ausfallschritten (Lunges). Ausfallschritte bieten mehr Reichweite, gehen jedoch auf Kosten längerer Erholungszeiten, falls du die Bewegung des Überlebenden falsch einschätzt.
+
+| Angriffstyp | Reichweite (Studs) | Ausholzeit | Fehlschlag-Erholung | Treffer-Erholung | Strategischer Einsatz |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Schneller Hieb (Quick Slash)** | 3.5 | 0.15s | 1.1s | 2.4s | Enge Korridore, direkte Palettendrops |
+| **Aufgeladener Lunge** | 7.2 | 0.45s | 1.8s | 2.7s | Offenes Feld, Abfangen von Vault-Animationen |
+| **Vault-Interrupt** | 2.0 | Sofort | Entfällt | Spezialgriff | Greifen verletzter Überlebender mitten im Vault |
+| **Trümmerschlag** | 4.0 | 0.30s | 1.4s | 1.4s | Zerstören von Barrikaden oder Hindernissen |
+
+### Mind Games und das Brechen der Sichtlinie
+
+Die tödlichste Killer-Technik im hochklassigen **Murderthon-Kampf** ist das Verbergen des roten Lichts (Red Stain Hide, auch bekannt als "Moonwalk" oder "Double-Back"). Der Killer projiziert eine subtile visuelle Bedrohungsanzeige vor sich her. Erfahrene Killer verbergen diese Warnung, indem sie Wände anblicken, während sie rückwärts um Ecken mit hohen Wänden laufen. So verleiten sie Überlebende dazu, direkt in ihren Waffenschwung zu rennen.
+
+```
+Sicht des Überlebenden:         Tatsächlicher Killer-Weg:
+  [Wand]                         [Wand]
+    │                              │
+    │ ◄── (Erwartet Killer)        │ ◄── (Läuft rückwärts)
+    │                              │
+[Überlebender]                   [M.A.S.K.] (Lichtkegel weggedreht)
+```
+
+---
+
+## Defensive Kampfführung der Überlebenden: Looping, Paletten und Stuns
+
+Überlebende tragen keine tödlichen Waffen gegen den M.A.S.K., verfügen jedoch über Werkzeuge, die als direkte Kampfverzögerer dienen. Berichte aus der Community verdeutlichen, dass das Beherrschen des Zusammenspiels von Fenstersprüngen (Vaults) und Paletten essenziell für das Überleben langer Prüfungen ist.
+
+### Die Anatomie eines Loops
+
+Looping ist die Kunst, einen Killer um ein Umgebungshindernis (wie einen Lastwagen, gestapelte Kisten oder Gebäuderuinen) herumzuführen, um so viel Zeit wie möglich zu schinden, während Teammitglieder Westcord-Inc.-Generatoren reparieren.
+
+| Defensive Ressource | Stun-Dauer | Reset / Erschöpfung | Ideales Timing |
+| :--- | :--- | :--- | :--- |
+| **Holzpalette umwerfen** | 2.2 Sekunden | Nach Nutzung verbraucht | Umwerfen, sobald der Killer in den Rahmen tritt |
+| **Schneller Fenstersprung (Fast Vault)**| 0.0 Sekunden | Erfordert 2.5s Sprint-Anlauf | Nutzen, bevor der Killer in Lunge-Reichweite ist |
+| **Mittlerer Sprung (Medium Vault)** | 0.0 Sekunden | Malus durch schrägen Anlauf | Riskant; anfällig für Treffer durch das Fenster |
+| **Taschenlampen-Blendung** | 1.8 Sekunden | Batterieverbrauch (~12s gesamt) | Killer während der Paletten-Zerstörung blenden |
+| **Spind-Ablenkung (Locker Decoy)** | 0.0 Sekunden | 30s Abklingzeit | Geräusch erzeugen, um die Aufmerksamkeit zu lenken |
+
+```
+Standard-Looping-Pfad:
+
+      [Hinderniswand]
+    ┌──────────────────┐
+    │                  │
+ ──►│ Überlebenden-Weg │──► [Palette] ── (Fallenlassen & Stun)
+    │                  │       ▲
+    └──────────────────┘       │
+       Killer-Verfolgung ──────┘
+```
+
+### Paletten-Respekt vs. Gier (Greed)
+
+In Situationen mit hohem Druck halten Killer oft kurz vor einer aktiven Palette an ("respektieren" sie), in der Erwartung, dass der Überlebende sie sofort herunterzieht.
+
+- **Gieriges Loopen (Greedy Looping):** Zögert der Killer, laufe noch eine weitere Runde um das Hindernis, ohne die Palette umzuwerfen. Das kostet den Killer weitere 3 bis 4 wertvolle Sekunden.
+- **Paletten-Stun:** Wenn der Killer aggressiv durch die Öffnung stürmt, wirf die Palette direkt auf seinen Kopf. Dies löst einen 2,2-sekündigen Stun aus, setzt die Verfolgung komplett zurück und tilgt jegliches aufgebaute Blutdurst-Momentum.
+
+---
+
+## Kampfattribute und Rollen in der Prüfung
+
+Verschiedene Prüfungen erfordern unterschiedliche taktische Ansätze. Obwohl *Murderthon* stark auf actionorientierte Horror-Verfolgungsjagden setzt, zeigen Community-Experimente, dass das Verständnis grundlegender Kampfattribute Teams einen deutlichen Vorteil bei der Aufgabenverteilung verschafft.
+
+| Attribut / Fokus | Vorteil für Überlebende | Auswirkung auf den Killer | Prioritätsbewertung |
+| :--- | :--- | :--- | :--- |
+| **Agilität / Geschicklichkeit** | Schnellere Vault-Erholung und engere Kurven | Kürzere Erholung nach Fehlschlägen | ★★★★★ |
+| **Wahrnehmung** | Frühere akustische Ortung des Killers | Bessere Sichtbarkeit von Generatorfunken | ★★★★☆ |
+| **Ausdauer / Zähigkeit** | Längere Sprintsprünge nach Verletzung | Immun gegen Stun-Chaining-Exploits | ★★★★☆ |
+| **Technik / Effizienz** | Schnellere Reparaturen und Selbstheilung | Schnelleres Zerstören von Paletten und Barrikaden | ★★★☆☆ |
+
+Das Zuweisen von Rollen vor Beginn der Prüfung stellt sicher, dass deine besten Runner die Aufmerksamkeit des Killers binden, während sich effiziente Mechaniker ungestört auf die Reparaturziele konzentrieren.
+
+---
+
+## Wichtige taktische Strategien für Kampfsituationen
+
+Um Prüfungen beständig zu gewinnen, müssen beide Seiten ihr Vorgehen an verbleibende Ziele, verfügbare Kartenressourcen und den Gesundheitszustand der Spieler anpassen.
+
+### Überlebenden-Strategie: Der 360-Grad-Drehkonter
+
+Wenn du dich als verletzter Überlebender auf offenem Feld ohne Paletten oder Fenster wiederfindest, ist der Drehkonter (360 Spin) deine wichtigste mechanische Verteidigung im **Murderthon-Kampf**.
+
+1. Beobachte die Annäherung des Killers mit der freien Kamera.
+2. Im Bruchteil einer Sekunde, in dem der Killer den Schlagsound oder die Ausholanimation startet, sprinte scharf auf seine nicht-dominante Seite zu.
+3. Rotiere deine Bewegungstasten schnell, während du deine Kamera in die entgegengesetzte Richtung ziehst.
+4. Bei korrekter Ausführung gleitet die Klinge des Killers durch seinen Vorwärtsimpuls wirkungslos an deiner Schulter vorbei und fängt ihn in einer strafenden Fehlschlagsanimation.
+
+### Killer-Strategie: Zielorientierte Kampf- und Raumkontrolle
+
+Einem erfahrenen Überlebenden endlos über die gesamte Karte hinterherzujagen, ist der schnellste Weg, ein Match zu verlieren. Elite-Killer setzen auf striktes Zeitmanagement bei Verfolgungen:
+
+```
+[Dauert die Jagd unter 20s?]
+       │
+      ├── JA  ──► [Dranbleiben & Treffer landen]
+      │
+      └── NEIN ──► [Nahegelegene Generatoren prüfen]
+                        │
+                        ├── Überlebende da? ──► [Ziel wechseln]
+                        └── Alles ruhig?     ──► [Beschädigen & Patrouillieren]
+```
+
+- **Ineffiziente Verfolgungen abbrechen:** Erreicht ein Überlebender einen extrem starken Loop (wie eine Lagerhalle mit zwei Fenstern), brich die Verfolgung sofort ab.
+- **Das Dreieck patrouillieren (3-Gen):** Identifiziere drei Generatoren, die nah beieinander liegen. Verteidige diesen Cluster aggressiv und erzwinge Kämpfe innerhalb dieses engen Bereichs.
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+### Was soll ich tun, wenn mich der Killer im Murderthon-Kampf auf offenem Feld erwischt?
+Wenn du fernab von Paletten oder Fenstern überrascht wirst, laufe niemals in gerader Linie. Nutze unregelmäßige Zickzack-Bewegungen, um das Zielen des Killers zu erschweren. Sobald er in Lunge-Reichweite kommt, führe eine enge 360-Grad-Drehung in seine Flanke aus, um die festen Animationsphasen seines Schlags auszunutzen.
+
+### Wie wirkt sich die Erholungszeit nach Angriffen auf Kämpfe in Murderthon aus?
+Wenn ein Killer einen Angriff verfehlt, sinkt seine Bewegungsgeschwindigkeit für bis zu 1,8 Sekunden auf rund 5 Studs pro Sekunde. Dieses Zeitfenster reicht für Überlebende oft aus, um einen rettenden Fenstersprung oder eine Palette zu erreichen. Umgekehrt verschafft ein erfolgreicher Treffer dem Überlebenden einen 2-sekündigen Temposchub, der den Abstand wiederherstellt.
+
+### Können sich Überlebende wehren und den Killer eliminieren?
+Nein. In *Murderthon* können Überlebende den M.A.S.K. nicht töten. Die Kampfdynamik ist rein defensiv und auf Ausweichen ausgelegt. Überlebende wehren sich über Gefahren in der Umgebung, Paletten-Stuns, Taschenlampen-Blinds und koordiniertes Blocken mit dem eigenen Körper (Body-Blocking), um verletzte Teamkollegen zu schützen und aus der Prüfung zu entkommen.

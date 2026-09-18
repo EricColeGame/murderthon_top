@@ -7,7 +7,13 @@
     "legalNotice": "Unofficial Murderthon fan wiki. Made by players, for players."
   },
   "nav": {
-    "home": "Home",
+    "guide": "Guide",
+    "codes": "Codes",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "maps": "Maps",
+    "community": "Community",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
@@ -450,7 +456,34 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Murderthon Beginner Guide — How to Play, Tips & Strategies",
+    "overviewDescription": "Start your first trial the right way. These Murderthon guides cover the basics of play, survivor objectives, killer counters, and the strategies that keep you alive past the opening minutes."
+  },
+  "codes": {
+    "overviewTitle": "Murderthon Codes — Free Shards & Banners",
+    "overviewDescription": "Every active Murderthon code in one place, plus a step-by-step redemption walkthrough so you can claim free Shards and banners before they expire."
+  },
+  "characters": {
+    "overviewTitle": "Murderthon Characters — Survivors & Killers",
+    "overviewDescription": "Profiles for every Murderthon character, from Enforcer and Handyman to Lens, Pierce, Sheol, Sin, Ripe, and Divide, with the abilities each one brings to a trial."
+  },
+  "mechanics": {
+    "overviewTitle": "Murderthon Mechanics — Classes, Talents & Combat",
+    "overviewDescription": "Learn how Murderthon actually works: class roles, talent and perk builds, killer tracking tools, and the combat rules that decide who escapes."
+  },
+  "items": {
+    "overviewTitle": "Murderthon Masks & Items — Full List",
+    "overviewDescription": "A complete look at Murderthon masks and items, including the Mask of Fate, Lens, Sin, Sheol, and Ripe, with the stats and abilities each one adds to a loadout."
+  },
+  "maps": {
+    "overviewTitle": "Murderthon Maps — West Park, Deep Forest & Facility",
+    "overviewDescription": "Walk every Murderthon map before the match starts. Route breakdowns, objective locations, and escape paths for West Park, Deep Forest, and the Facility."
+  },
+  "community": {
+    "overviewTitle": "Murderthon Community — Discord, Reddit, Lore & Fanart",
+    "overviewDescription": "Where the Murderthon community gathers: official Discord and Reddit links, plus lore deep dives, fanart showcases, and the soundtrack that sets the mood."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -481,9 +514,6 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Murderthon Wiki Tools",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
